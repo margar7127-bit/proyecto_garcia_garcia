@@ -24,3 +24,12 @@ productos = [
         "precio": 180.00,
         "stock": 5    }
         ]
+
+print("\n--- INVENTARIO ---")
+
+for producto in productos:
+        print(f"ID: {producto['id']}")    
+        print(f"Nombre: {producto['nombre']}")    
+        print(f"Precio: ${producto['precio']:.2f}")    
+        print(f"Stock: {producto['stock']}")    
+        print("-------------------")
